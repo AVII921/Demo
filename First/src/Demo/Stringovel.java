@@ -9,14 +9,16 @@ public class Stringovel {
 		   {
 			   if (str.charAt(i)=='e' || str.charAt(i)=='o')
 			   {
-				   System.out.print(i);
+				   System.out.print(i);// system.out.println(str.charAt(i));
 			   }
-			   else {
-			    System.out.print(str.charAt(i));
+			   else 
+			   {
+				   System.out.print(str.charAt(i));
+				  
 			   }
 		   }
 
 	}
 
 }
-
+ 
