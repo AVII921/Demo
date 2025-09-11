@@ -1,6 +1,7 @@
 package Demo;
 
-public class ReversString {
+
+public class ReversS {
 
 	public static void main(String[] args) {
 		
@@ -10,9 +11,13 @@ public class ReversString {
 		  {
 			  System.out.print(str.charAt(i));
 		  }
-		 
-		 
-		
+		 System.out.println();
+	
+	
+		 StringBuilder sb=new StringBuilder("ABCS");
+	     System.out.println(sb.reverse().reverse().append("jdbc").isEmpty());
 	}
-
 }
+
+
+

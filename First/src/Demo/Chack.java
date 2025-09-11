@@ -9,7 +9,7 @@ public class Chack {
 		  // the / java / class 
 		 
 		  boolean result= true;
-		   if (str.contains("the ")||str.contains("java")||str.contains("the"));
+		   if (str.contains("the ")||str.contains("java")||str.contains("and "));
 		   
 		   {
 			   result=false;
