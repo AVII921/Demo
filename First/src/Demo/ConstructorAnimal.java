@@ -5,9 +5,9 @@ public class ConstructorAnimal {
 	public static void main(String[] args) {
 		
 		 tiger Tig= new tiger("wagh",120,'T');
-		 
 	
-
+		 
+		 
 	}
 
 }
