@@ -16,10 +16,8 @@ public class ConstructorCarEx {
 	 num1=num1-num2;
 	
 	 System.out.println( "After Swaping    Num1  is  "+num1+"  Num2  is "+num2);
-	
-		
-		
-		
-		
+
+	 
+	 
 	}
 }
