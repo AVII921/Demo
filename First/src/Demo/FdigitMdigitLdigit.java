@@ -1,6 +1,8 @@
 package Demo;
 import java .util.*;
 public class FdigitMdigitLdigit {
+	//Take a three-digit number and check whether the middle digit is greater than the sum of the 
+	//first and last digits using the ternary operator. 
 
 	public static void main(String[] args) {
 		System.out.println("Enter A Numbwer");
