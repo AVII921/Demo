@@ -4,12 +4,13 @@ public class Amazon {
 
 	public static void main(String[] args) {
 		
-		order o=new order("avi","7499265601","khayde ","74444444", 10000.0);
+		order o=new order("avinash","7499265601","khayde ","7499265601", 10000.0);
 		o.delevery();
-		System.out.println(o);
+	
 	
 
 	}
+
 
 }
 
@@ -29,23 +30,21 @@ class order{
     	  this.add=cus_add;
     	  this.aadhar=cus_aadhar;  
     	  this .price =cus_price;
+    	System.out.println(cus_name);
+    	System.out.println(cus_mobail);
+    	System.out.println(cus_add);
+    	System.out.println(cus_aadhar);
+    	System.out.println(cus_price);
+
+
     	
      }
      
       public void delevery()
       {
     	  System.out.println("oder delevar ");
+    	  
       }
       
-       public String  toString ()
-       {
-    	    return "oderdetails⇒ " + 
-    	    "name "+name+" ,"+
-    	    "Mobile: " + mobail + ", " +
-            "Address: " + add + ", " +
-            "Aadhar: " + aadhar + ", " +
-            "Price: " + price;		
-    	    		
-       }
-    
+  
 }
