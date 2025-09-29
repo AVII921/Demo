@@ -23,7 +23,9 @@ class order{
 	String aadhar ;
     String vehical ;
     
-     public order(String cus_name , String cus_mobail,String cus_add, String cus_aadhar, double cus_price  )
+     public order(String cus_name , 
+    		 String cus_mobail,String cus_add,
+    		 String cus_aadhar, double cus_price  )
      {
     	  this .name =cus_name ;
     	  this.mobail=cus_mobail;
