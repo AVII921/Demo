@@ -28,6 +28,7 @@ class Indigo  extends Aeroplane
 	
 	 public Indigo(int i)
 	 {
+		 
 		 System.out.println("hiiiiii.."); 
 	 }
 }
